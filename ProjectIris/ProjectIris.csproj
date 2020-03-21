@@ -41,9 +41,19 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Game1.cs" />
+    <Compile Include="DrawHelpers\GameObjectDrawHelper.cs" />
+    <Compile Include="GameConcepts\Animation\AnimationBundle.cs" />
+    <Compile Include="GameConcepts\Animation\Animator.cs" />
+    <Compile Include="GameConcepts\GameModel.cs" />
+    <Compile Include="GameConcepts\GameObject.cs" />
+    <Compile Include="GameConcepts\GameObjects\MrHatman.cs" />
+    <Compile Include="ProjectIrisMain.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\ContentLoader.cs" />
+    <Compile Include="Utils\GameConfig.cs" />
+    <Compile Include="Utils\RectangleD.cs" />
+    <Compile Include="Utils\TextureInformation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
