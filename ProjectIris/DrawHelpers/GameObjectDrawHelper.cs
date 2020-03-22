@@ -2,7 +2,7 @@
 {
     using Microsoft.Xna.Framework;
     using Microsoft.Xna.Framework.Graphics;
-    using ProjectIris.GameConcepts;
+    using ProjectIris.GameConcepts.GameObjects;
 
     public static class GameObjectDrawHelper
     {

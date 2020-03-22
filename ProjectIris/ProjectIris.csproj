@@ -44,9 +44,12 @@
     <Compile Include="DrawHelpers\GameObjectDrawHelper.cs" />
     <Compile Include="GameConcepts\Animation\AnimationBundle.cs" />
     <Compile Include="GameConcepts\Animation\Animator.cs" />
+    <Compile Include="GameConcepts\Collision\CollisionRealm.cs" />
     <Compile Include="GameConcepts\GameModel.cs" />
-    <Compile Include="GameConcepts\GameObject.cs" />
+    <Compile Include="GameConcepts\GameObjects\GameObject.cs" />
     <Compile Include="GameConcepts\GameObjects\MrHatman.cs" />
+    <Compile Include="GameConcepts\Movement\Controller.cs" />
+    <Compile Include="GameConcepts\Movement\KeyboardMouseController.cs" />
     <Compile Include="ProjectIrisMain.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
